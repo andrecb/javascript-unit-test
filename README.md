@@ -23,7 +23,7 @@
 A framework / philosophy for writing tests
 
 1. Write a failing test first
-2. Impement the code to make the test succeed
+2. Implement the code to make the test succeed
 3. Refactor
 
 #### Course steps
@@ -55,8 +55,7 @@ A framework / philosophy for writing tests
   - Supports all kinds of expectations and modes (sync / async)
   - e.g., Jest, Chai
 
-`ECMAScript on Jest have a experimental support`
-`Alternative: Vitest`
+`ECMAScript on Jest have a experimental support an alternative is Vitest`
 
 ### Section 03
 
@@ -67,7 +66,7 @@ A framework / philosophy for writing tests
   - What To Test & Organizing Tests
 
 **How it works?**
-`Write the test function that the first argument is the description of what the test will do and the second one is the test itself.`
+Write the test function that the first argument is the description of what the test will do and the second one is the test itself.
 
 **Example:**
 ```javascript
@@ -76,3 +75,8 @@ import {it} from 'vitest'
 it('the description', () => {})
 
 ```
+
+#### The AAA Pattern - Arrange, Act, Assert
+- Arrange: Define the testing environment and values
+- Act: Run the actual code / function that should be tested
+- Assert: Evaluate the produced value / result and compare it to the expected value / result
