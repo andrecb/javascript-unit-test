@@ -80,3 +80,7 @@ it('the description', () => {})
 - Arrange: Define the testing environment and values
 - Act: Run the actual code / function that should be tested
 - Assert: Evaluate the produced value / result and compare it to the expected value / result
+
+`Keep Your Tests Simple!`
+
+Writing good tests is an iterative process
