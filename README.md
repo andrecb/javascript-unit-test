@@ -84,3 +84,10 @@ it('the description', () => {})
 `Keep Your Tests Simple!`
 
 Writing good tests is an iterative process
+
+*Note*
+Technically, expect() _*does not*_ return _*true*_ or _*false*_.
+Instead, it throws an error, if the expection is not met.
+The test runner treats thrown errors as _*failed*_ tests and tests that do _*not throw*_ as _*passed*_.
+
+It's ok to write more than one test with the same result, but it can be arranged in the same test to avoid repetition.
