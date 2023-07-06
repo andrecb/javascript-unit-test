@@ -104,3 +104,6 @@ Follow **A**rrange-**A**ct-**A**ssert
 - Keep your number of assertions ("expects") **low**
 
 Splitting functions for easier testing and better code.
+
+### Section 05
+Integration Tests
